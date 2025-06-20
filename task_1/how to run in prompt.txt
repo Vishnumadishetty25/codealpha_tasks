@@ -1,0 +1,13 @@
+how to run in prompt
+
+cd C:\Users\sruja\OneDrive\Desktop\project
+
+conda create -n emotion_env python=3.9 -y
+conda activate emotion_env
+
+
+
+pip install numpy librosa matplotlib sounddevice scipy scikit-learn tensorflow
+
+
+python erl.py
